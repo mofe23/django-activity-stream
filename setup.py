@@ -34,4 +34,5 @@ setup(name='django-activity-stream',
           'jsonfield': ['django-jsonfield-backport>=1.0.2,<2.0'],
           'drf': ['django-rest-framework', 'rest-framework-generic-relations'],
       },
+      zip_safe=False,
       )
